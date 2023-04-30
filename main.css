@@ -1,0 +1,677 @@
+iframe {
+  
+    display: block;
+    position: center;
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+    padding-left: 1px;
+    padding-right: 1px;
+  
+}
+
+.sketchfab-embed-wrapper {
+    position: relative;
+    top: 0;
+    left: 0;
+    position: center;
+    width: 100%;
+    height: 100%;
+    padding: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+/* iframe-crop{display: block; width: 100vw; height:70vw; overflow:hidden;} */
+
+html {
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  
+}
+
+body {
+padding: 0px;
+background: black;
+}
+
+.particles{
+  position: absolute;
+  height:100%;
+
+}
+
+
+/*--- Scroll Bar ---  */
+
+/* width */
+::-webkit-scrollbar {
+width: 18px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+background: black;
+background: radial-gradient(black, black, black, #33b5e5);
+ 
+  border-radius: 0px;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+border-radius: 10px;
+  background: radial-gradient(#aaaa, black);
+}
+
+
+/*--- Elements in Main ---  */
+
+h2 {
+    text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;
+  color: white;
+  text-align: center;
+  font-size: 4vw;
+  line-height: 0;
+  padding: 40px;
+  width: 100%;
+  background:radial-gradient(grey, #131313);
+  border-radius: 50px;
+  border: solid black;
+  box-shadow: 10px 12px 8px rgba(0,0,0,.5);
+  z-index: 2;
+  margin-bottom: -10px;
+  opacity: 100%;
+  font-family: 'ROBOTECHGPRegular';
+ // transition: all 2s;
+  
+}
+
+h2:hover{
+  cursor: pointer;
+}
+
+
+p {
+text-align: center;
+}
+
+
+
+section{
+   width: auto;
+  postion: center;
+  margin: 0px;
+  margin-top: 20px;
+  margin-left: -2;
+  margin-right: -2;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+   font-size: auto;
+  padding: 20px;
+ // background: radial-gradient(#525252, #131313);
+  //background: black;
+  height: 2000px;
+
+
+}
+
+.center-box{
+/*  SHOP DROIDS GRID  */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 100px;
+
+}
+
+img{
+   width: 100%;
+  height: 200px;
+  object-fit: contain;
+  
+   object-position: center;
+   background-size: cover;
+   object-size: 150%;
+}
+
+
+/*--- Footer Elements---  */
+
+
+
+footer, footer-wrapper{
+background: black;
+  color: white;
+  padding: 10px;
+  width: 5%;
+   margin: auto;
+  width: 40vw;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 250px;
+}
+
+
+
+footer-wrapper{ width: 100vw;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+color: white;  margin-left: -50px; margin-bottom: -80px;
+/*   background-image:url("https://i.pinimg.com/originals/43/f1/96/43f196f94fd37e2610e496e38f08de7c.png");
+background-size: fill; filter: opacity(30%); */
+}
+
+footer-wrapper > ul > li{}
+
+footer-wrapper > ul{
+  height: 60px;
+  flex: 100%;
+  display: flex;
+  padding-left: 25%;
+  padding-right: 25%;
+  margin-top: 0px;
+  color: white;
+  z-index: 1;
+
+  padding: 0;
+  list-style-type: none;
+  flex: 1;
+  display: flex;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+footer-wrapper > ul > li{
+  display: inline;
+  text-align: center;
+  flex: 1;
+  width: cover;
+  display: block;
+  height: 3rem;
+  line-height: 1.7;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #aaa;
+}
+
+footer-wrapper > ul > li:hover{cursor: pointer; color: white;}
+
+
+
+article3 > p{background:#33b5e5;
+  background:orange;
+  padding: 10px;
+  padding-top: 20px;
+  line-height: 160%;
+  border-radius: 40px;
+ background: linear-gradient(0deg, #FCCB3C, gold);
+} 
+
+article3 > b{background:white;
+  border: solid white;
+  padding: 10px;
+  border-radius: 40px;
+  margin-bottom: -35px;
+  z-index: 2}
+
+
+.p1 
+{
+/*   Product title */
+  font-size: 100%;
+  padding: 0px;
+   margin-top: 40px; 
+   line-height: 60%;
+  text-align: center;
+  
+/*   line-height: 40%;
+  font-size: 180%;
+  font-family: 'ROBOTECHGPRegular'; */
+}
+
+p1 
+{
+/*   Product details */
+  font-size: 50%;
+  padding: 0px;
+   margin: 0px; 
+   line-height: 0%;
+  border-radius: 40px;
+  color: black;
+  padding: 4px;
+}
+
+p1 > ul
+{
+  padding: 0;
+  list-style-type: none;
+}
+
+p2{
+/*  product price and view product  */
+  font-size: 15px;
+  line-height: 1px;
+}
+
+a{text-decoration: none;}
+a:visited{color:black;}
+a:hover{text-decoration: underline;}
+li > a:hover{text-decoration: none;}
+footer > a:visited{color: purple;}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 6fr);
+  grid-gap: 2%;
+  
+}
+
+.model-item {
+
+  border: black;
+  text-align: left;
+  background-color: white;
+  background-image: linear-gradient(black, white, white, white);
+  padding: 0px;
+  padding-top: 0px;
+  padding-bottom: 25px;
+  font-size: 30px;
+  border: solid black;
+  margin: 0%;
+   margin-bottom: 10px;
+  border-radius: 10px;
+/*  background: radial-gradient(white, #131313); */
+  display: block;
+   z-index: 2;
+  overflow: hidden;
+}
+
+
+.grid-container > div:hover {
+
+  
+ filter: drop-shadow(0.4vh 0.4vh 4.4vh rgba(4, 4, 4, 0.8));
+ cursor: pointer;
+  
+}
+
+
+.back-img{
+height: 150px;
+width: 170px;
+z-index: 0;
+margin-left: 0px;  
+margin-top: -5px;
+ transition: all 0.2s;
+ z-index: 1;
+  
+}
+
+/* model-item backgrounds */
+
+#model > .back-img{background-image: url("backimg1.jpg");
+background-size: cover;}
+
+#model2 > .back-img{background-image: url("backimg2.jpg");}
+
+#model3 > .back-img{background-image: url("backimg3.jpg");
+  background-size: cover;
+}
+
+#model3 > .p1{margin-bottom: 10px; margin-top: 30px;}
+
+#model3 > .back-img > .model-pic{
+/*  B2 fade bottom  */
+  -webkit-mask-image: linear-gradient(black, black, black , black , black, black, black, transparent);
+height: 120%;
+margin-top: 5px;
+}
+
+#model4 > .back-img{background-image: url("backimg4.jpg");
+background-size: cover;}
+
+#model4 > .back-img > .model-pic{
+width: 350%;
+  margin-left: -212px;
+//margin-top: -190px;
+}
+
+/* shop row 2 */
+
+
+#model-protocol > .back-img{background-image: url("backimg5.jpg");
+background-size: cover;}
+
+#gnk, #recon{ 
+height: 100%;
+margin-top: 30px;
+}
+#model-gnk > .back-img{background-image: url("backimg6.jpg");
+background-size: cover;}
+
+#model-recon > .back-img{background-image: url("backimg7.jpg"); 
+  
+/*  https://earthsky.org/upl/2017/08/west-antarctic-ice-sheet-e1503662884251.jpg  */
+background-size: cover;}
+
+
+#model-magnaguard > .back-img{background-image: url("backimg8.png");
+background-size: cover;}
+
+/* Shop Row 3 */
+
+#model-droideka > .back-img{background-image: url("backimg9.png");
+background-size: cover;}
+
+#model-commando > .back-img{background-image: url("backimg10.jpg");
+background-size: cover;}
+
+#model-commando > .back-img > .model-pic{ height: 120%; margin-top: 10px;}
+
+#model-lom > .back-img{background-image: url("backimg11.jpg");
+background-size: cover;}
+
+ #model-lom > .back-img > .model-pic{ height: 120%; margin-top: 10px;} 
+
+
+#model-medical > .back-img{background-image: url("backimg9.png");
+background-size: cover;}
+
+ #model-medical > .back-img > .model-pic{ height: 120%; margin-top: 10px;} 
+
+
+/*--- Button ---  */
+
+button:hover{
+ cursor: pointer;
+  background: #f5f5f5;
+}
+
+button {
+  background: white;
+  padding: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  border: solid black;
+  margin-bottom: 15px;
+    transition: all 0.2s;
+  border: 1px solid black;
+}
+
+
+/*---Screen Responsiveness---  */
+
+@media (max-width: 1500px) {
+section {
+  padding: 230px;
+  padding-top: 10px;
+  }}
+
+@media (max-width: 1425) {
+section{
+  padding: 30px;
+  }}
+
+@media (max-width: 1400px) {
+section {
+  padding: 20px;
+  }
+/* width */
+::-webkit-scrollbar {
+width: 0px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+background: black;
+ 
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+border-radius: 0px;
+background: black;
+}
+
+  }
+  
+}
+
+
+@media (max-width: 910px) {
+section {
+  padding: 30px;
+  
+  }}
+  
+/* DROID COLOR DIVS */
+
+
+
+
+.droid-color-box
+{
+/*  border for top seller droids  */
+  margin: 10px, auto;
+  padding-top: 40px;
+  padding: 0px;
+  postion: center;
+  border-radius: 80px;
+  background-image: url("mainbackground.png");
+  background-size: cover;
+  background-position: center;
+  width: 1000px;
+  height: 400px;
+  display: flex;
+  z-index: 0;
+  font-size: 25px;
+  margin-top: 60px;
+  margin-bottom:750px;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border: 2px solid white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.droid-color-box > img{ width: auto; margin-top: -150px;
+margin-top: -100px;
+height: 640px; 
+}
+
+
+hc{font-size: 30px; 
+  padding: 30px; font-weight: bold;
+  background: black;
+  color: white;
+  display: block;
+  margin: -30px;
+  margin-bottom: -15px;
+  margin-top: -12px;
+  z-index: 3;
+  padding-top: 0px;
+  padding-bottom: 6px;
+  font-size: 50px;
+  font-family: 'ROBOTECHGPRegular';}
+ 
+
+.color-box-text{
+  font-family: sans-serif;
+  padding: 10px;
+  text-align: center;
+
+  
+  width: auto;
+  font-size: 80%;
+  margin-top: -142px;
+  border-radius: 0px;
+  background: white;
+  color: black;
+  border: 2px solid white;
+  outline: 2px solid white;
+  z-index: 3;
+  border-bottom-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  height: auto;
+  //margin-bottom: 400px;
+}
+
+
+  
+  
+  
+@media (max-width: 1036px){
+
+.droid-color-box{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 95vw;
+  }
+  
+  .color-box-text, .grid-container{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  hc{width: 170%;}
+  
+ 
+
+@media (max-width: 525px){
+  
+  .droid-color-box{width: auto;}
+  .droid-color-box > img{ height: 500px;}
+  .color-box-text, .grid-container, section{padding: 0px;}}
+
+  @media (max-width: 410px){
+    
+  .grid-container{padding: 0px;}
+  .model-pic{margin-left: -10px;}
+    
+  .model-item {
+  padding: 0px;
+  padding-top: 0px;
+  padding-bottom: 25px;
+  font-size: 25px;
+  margin: 0%;
+   margin-bottom: 10px;
+  max-width: 150px;
+  max-height: 250px;
+    }}}
+  
+
+  
+/* NEW ADD ONS */
+  
+  
+h1 > img:hover{
+  cursor: pointer;
+  }
+
+#img-h1{display: flex; justify-content: center; margin-bottom: -10px;}
+
+#header-img{
+  height: auto;
+  width: 140px;
+}
+
+.nav {
+  height: 60px;
+  flex: 100%;
+  display: flex;
+  padding-left: 25%;
+  padding-right: 25%;
+  margin-top: 0px;
+  color: white;
+  background-color: black;
+  box-shadow: inset 0 0px 10px rgba(0, 0, 0,11.5);
+  z-index: 1;
+}
+
+.nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 1;
+  display: flex;
+  font-weight: bold;
+}
+
+.nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+  
+}
+
+.nav a, .nav span {
+  display: block;
+  font-size: 100%;
+  height: 3rem;
+  line-height: 1.7;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #aaa;
+}
+
+
+
+.nav li:hover, .nav span:hover, .nav a:hover {
+   color: white;
+}
+  
+  
+  
+  /* screen sizes */
+
+
+@media (max-width: 1083px){
+
+  .nav{padding: 0px;}
+  .nav span:hover, .nav a:hover, .nav li:hover {
+  background: transparent;}}
+  
+  
+  @media (max-width: 550px){
+
+  titleimg > .centerbar > img{
+    width: 50%;
+  }
+.nav {
+  overflow: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  width: 100vw;
+  }
+  
+ .nav > ul > li >a{ 
+  color: white;
+  display: inline-block;
+  text-align: center;
+  padding: 14px;
+  line-height: 0.2;}
+    
+.nav li:hover {
+ background-color: black;
+ color: white;}
+  
+ .nav a:hover {
+   color: white;}}
+  
